@@ -81,7 +81,7 @@ if st.sidebar.button("Logout"): #st.sidebar.button-> side bar me button banta ha
 #9.  FECH DATA
 
 df=database.fetch()  #-> database se data laata hai
-df = df[df['id'].notna() & (df['id'].astype(str).str.strip()!= "")]
+df = df[df["id"].astype(str).str.strip()!=]
 
 # --- TOP METRIC CARDS ---
 
